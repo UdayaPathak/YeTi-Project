@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    
+        /* Basic Colors */
+        --white-color: #fff;
+        --black-color: #000;
+        --gray-color: #808080;
+        --light-gray-color: #d3d3d3;
+        --dark-gray-color: #333333;
+    
+        /* Primary Colors */
+        --primary-blue-color: #007bff;
+        --primary-red-color: #dc3545;
+        --primary-green-color: #28a745;
+        --primary-yellow-color: #ffc107;
+        --primary-orange-color: #fd7e14;
+        --primary-purple-color: #6f42c1;
+    
+        /* Secondary Colors */
+        --secondary-blue-color: #6c757d;
+        --secondary-red-color: #e83e8c;
+        --secondary-green-color: #20c997;
+        --secondary-yellow-color: #ffc658;
+        --secondary-orange-color: #f77f00;
+        --secondary-purple-color: #6610f2;
+    
+        /* Background Colors */
+        --background-light-color: #f8f9fa;
+        --background-dark-color: #343a40;
+        --background-info-color: #17a2b8;
+        --background-warning-color: #ffc107;
+        --background-danger-color: #dc3545;
+        --background-success-color: #28a745;
+    
+        /* Text Colors */
+        --text-primary-color: #212529;
+        --text-secondary-color: #6c757d;
+        --text-muted-color: #6c757d;
+        --text-white-color: #ffffff;
+        --text-black-color: #000000;
+    
+        /* Accent Colors */
+        --accent-pink-color: #e83e8c;
+        --accent-cyan-color: #17a2b8;
+        --accent-teal-color: #20c997;
+        --accent-indigo-color: #6610f2;
+        --accent-yellow-color: #ffc107;
+    
+        /* Gradient Colors */
+        --gradient-primary: linear-gradient(45deg, #007bff, #6610f2);
+        --gradient-secondary: linear-gradient(45deg, #6c757d, #343a40);
+        --gradient-success: linear-gradient(45deg, #28a745, #20c997);
+        --gradient-danger: linear-gradient(45deg, #dc3545, #e83e8c);
+        --gradient-warning: linear-gradient(45deg, #ffc107, #fd7e14);
+        --gradient-info: linear-gradient(45deg, #17a2b8, #6f42c1);
+    
+        /* Additional Colors */
+        --navy-blue-color: #001f3f;
+        --olive-green-color: #3d9970;
+        --maroon-color: #800000;
+        --lime-color: #01ff70;
+        --aqua-color: #7fdbff;
+}
+    
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    
+
+}
+.navbar :where(.nav-section, .seacch-form, .nav-logo) {
+    display: flex;
+    align-items: center;
+
+}
+.navbar .nav-section {
+    gap: 1rem;
+}
+.navbar :where(.logo-image, .user-image) {
+    width: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.navbar .nav-button {
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: none;
+   background: none;
+} 
+
+.navbar .nav-button:hover {
+    background-color: var(--light-gray-color);
+}
+
+.navbar .nav-button i {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav-logo {
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar .nav-logo .logo-text {
+font-size: 1.25rem;
+color: var(--black-color);
+}
+
+.navbar .nav-center {
+    display: flex;
+    width: 100%;
+}
+
+.navbar .search-form {
+    max-width: 550px;
+    flex: 1;
+    height: 40px;
+}
+
+.navbar .search-form .search-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    border: 1px solid var(--background-danger-color);
+}
+

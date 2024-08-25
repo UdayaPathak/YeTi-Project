@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
-<body>
+<body class="sidebar-hidden">
     <div class="container">
+        <!--header / Navbar-->
         <header>
             <nav class="navbar">
                 <div class="nav-section nav-left">
@@ -16,31 +17,379 @@
                         <i class="uil uil-list-ul"></i>
                     </button>
                     <a href="#" class="nav-logo">
-                        <img src="#" alt="logo-image" class="log-image">
-                        <h2 class="logo-text">yati</h2>
+                        <img src="./images/background image.jpg" width="100px" alt="logo-image" class="logo-image">
+                        <h2 class="logo-text">YeTi- The Himalayan Choice</h2>
                     </a>
                 </div>
+
                <div class="nav-section nav-center">
                 <form action="#" class="search-form">
                     <input type="text" placeholder="search your product"  class="search-input" required>
                     <button class="nav-button search-button">
                         <i class="uil uil-search"></i>
                     </button>
-                    <button class="nav-button mic-button">
-                        <i class="uil uil-microphone"></i>
-                    </button>
                 </form>
+                <button class="nav-button mic-button">
+                    <i class="uil uil-microphone"></i>
+                </button>
                </div>
 
                <div class="nav-section nav-right">
+                <button class="nav-button search-button">
+                    <i class="uil uil-search"></i>
+                </button>
                 <button class="nav-button theme-button">
                     <i class="uil uil-moon"></i>
                 </button>
-                <imag class="user-image" href="#" alt="user-image"></imag>
+                <img src="./images/background image.jpg" alt="userImage" class="user-image">
                </div>
 
             </nav>
         </header>
+        <!--main layout-->
+        <main class="main-layout">
+            <div class="screen-overlay">
+
+            </div>
+            <!--sidebar-->
+            <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="uil uil-list-ul"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="./images/background image.jpg" width="100px" alt="logo-image" class="logo-image">
+                        <h2 class="logo-text">YeTi-The Himalayan choice</h2>
+                    </a>
+                </div>
+                <div class="link-container">
+                    
+                    <div class="link-section">
+                        <a href="" class="link-item">
+                            <i class="uil uil-estate"></i>home
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-video"></i>sorts
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-tv-retro"></i>subscription
+                        </a>
+                    </div>
+
+                    <div class="section-separator"></div>
+                        <div class="link-section">
+                            <h4 class="section-title">You</h4>
+                            <a href="" class="link-item">
+                                <i class="uil uil-user-square"></i>Your Channel
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-history"></i>history
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-tv-clock"></i>watch letter
+                            </a>
+                        </div>
+                        <div class="section-separator">
+                        <div class="link-section">
+                            <h4 class="section-title">Explore</h4>
+                            <a href="" class="link-item">
+                                <i class="uil uil-e"></i>trending
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-history"></i>history
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-tv-clock"></i>watch letter
+                            </a>
+                        </div>
+                        <div class="section-separator">
+                        <div class="link-section">
+                            <h4 class="section-title">more from youtub</h4>
+                            <a href="" class="link-item">
+                                <i class="uil uil-e"></i>toutub plans
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-history"></i>more over
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-tv-clock"></i>somthing
+                            </a>
+                        </div>
+                        <div class="link-section">
+                           
+                            <a href="" class="link-item">
+                                <i class="uil uil-setting"></i>setting
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-history"></i>report history
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-tv-clock"></i>help
+                            </a>
+                            <a href="" class="link-item">
+                                <i class="uil uil-tv-clock"></i>feedback
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+                <div class="content-wrapper">
+                    <!--category List-->
+                    <div class="category-list">
+                        <button class="category-button active">home</button>
+                        <button class="category-button">about</button>
+                        <button class="category-button">furniture</button>
+                        <button class="category-button">outdoor</button>
+                        <button class="category-button">man</button>
+                        <button class="category-button">women</button>
+                        <button class="category-button">contact</button>
+                        <button class="category-button">nothing</button>
+                    </div>
+                    <!--video list or image list-->
+                    <div class="video-list">
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a> <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a> <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a> <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a> <a href="#" class="video-card">
+                            <div class="thumbnail-container">
+                                <img src="./images/background image.jpg" alt="thumbnail" class="thumbnail">
+                                <p class="duration">10:30</p>
+
+                            </div>
+                            <div class="video-info">
+                                <img src="./images/background image.jpg" alt="channelLogo" class="icon">
+                                <div class="video-details">
+                                    <h2 class="title">somthing title about videos</h2>
+                                    <p class="channel-name">CodingNepal</p>
+                                    <p class="videws">27k views. 4 months </p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                   
+                    
+                    
+                </div>
+        </main>
     </div>
 
 
